@@ -56,6 +56,15 @@
 
     <!-- Sidebar -->
     <aside class="large-3 columns">
+        <h5 class="sidebar-title">Site</h5>
+        <ul class="side-nav">
+            {% for title, link in MENUITEMS %}
+            <li><a href="{{ link }}">{{ title }}</a>
+            {% endfor %}
+            {% for page in PAGES %}
+            <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a>
+            {% endfor %}
+        </ul> 
         <h5 class="sidebar-title">Blog</h5>
         <ul class="side-nav">
             <li><a href="{{ SITEURL }}/archives.html">Archives</a>
