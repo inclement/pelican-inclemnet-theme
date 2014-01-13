@@ -1,6 +1,8 @@
 /* Misc */
 body { word-wrap:break-word; }
 
+html {overflow-y: scroll; }
+
 ol li ul, ol li ol { 
 margin-bottom: 1.25em;
 }
