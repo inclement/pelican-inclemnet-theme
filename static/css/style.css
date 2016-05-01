@@ -79,3 +79,9 @@ padding: 0.5em 0.8em 0.5em 0.8em;
 overflow: auto;
 line-height: 1.3;
 }
+
+.align-center img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
