@@ -80,6 +80,10 @@ overflow: auto;
 line-height: 1.3;
 }
 
+.align-center {
+    margin-bottom: 30px;
+}
+
 .align-center img{
     display: block;
     margin-left: auto;
