@@ -804,7 +804,8 @@ line-height:0}
 
 h1{font-size:2.125em}
 
-h2{font-size:1.6875em}
+/*h2{font-size:1.6875em}*/
+h2{font-size:1.125em}
 
 h3{font-size:1.375em}
 
@@ -907,7 +908,8 @@ padding:0 0.0625em}
 
 h1{font-size:2.75em}
 
-h2{font-size:2.3125em}
+/*h2{font-size:2.3125em}*/
+h2{font-size:1.4375em}
 
 h3{font-size:1.6875em}
 
